@@ -1,0 +1,31 @@
+h2 {
+    color: green;
+}
+
+h2.a1,
+h2.a2 {
+    animation: blinking 1.5s infinite;
+    font-size: 20px;
+}
+
+@keyframes blinking {
+    0% {
+        color: red;
+    }
+
+    47% {
+        color: #000;
+    }
+
+    62% {
+        color: transparent;
+    }
+
+    97% {
+        color: transparent;
+    }
+
+    100% {
+        color: #000;
+    }
+}
